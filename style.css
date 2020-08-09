@@ -1,0 +1,44 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+body { line-height:1; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline: none; text-decoration:none; }
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+   
+html{-webkit-font-smoothing:antialiased;}
+body{line-height:1;-webkit-text-size-adjust:none;}
+
+/* reusable classes */
+
+.inner { max-width: 1000px; margin: 0 auto; }
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }  
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+.absolute {position: absolute;}
+.relative {position: relative;}
+.fixed {position: fixed;}
+.flex {display: flex;}
+
+/* floats */
+
+.float20 { float: left; width: 20%;}
+.float25 { float: left; width: 25%;}
+.float33 { float: left; width: 33.3333%;}
+.float50 { float: left; width: 50%;}
+.float66 { float: left; width: 66.6667%;}
+.float75 { float: left; width: 75%;}
+.float80 { float: left; width: 80%;}
+
