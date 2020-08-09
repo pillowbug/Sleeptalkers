@@ -78,13 +78,9 @@ h2 {
 
 }
 
-header {
-    background-color: ;
-}
-
 /* hero sections */
 
-.hero {
+#home {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("sleeptalkers-hero.jpg") no-repeat center top fixed;
@@ -92,12 +88,24 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: fixed;
+    overflow: auto;
+}
+
+
+.home-content {
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+
 }
+
 
 .hero-content {
     margin: 0 auto;
+    padding: 32px;  
+    border: 8px solid #fff;
 }
 
 .inner {
@@ -113,4 +121,17 @@ header {
     position: relative;
     padding-top: 40px;
     margin-left: 64px;
+}
+
+.band-bio {
+    height: 100vh;
+    width: 100vw; 
+    background-color: transparent;
+}
+
+.bio-content {
+    margin: 0 auto;
+    padding: 32px;
+    height: 80%; width: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
 }
