@@ -105,3 +105,12 @@ header {
     height: 500px;
     width: 80%;
 }
+
+.content {
+    min-height: 100vh;
+    height: 100%;
+    width: 66%;
+    position: relative;
+    padding-top: 40px;
+    margin-left: 64px;
+}
