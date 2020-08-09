@@ -34,11 +34,55 @@ body{line-height:1;-webkit-text-size-adjust:none;}
 
 /* floats */
 
-.float20 { float: left; width: 20%;}
-.float25 { float: left; width: 25%;}
-.float33 { float: left; width: 33.3333%;}
-.float50 { float: left; width: 50%;}
-.float66 { float: left; width: 66.6667%;}
-.float75 { float: left; width: 75%;}
-.float80 { float: left; width: 80%;}
+.float20 { 
+    float: left; 
+    width: 20%;
+}
 
+.float25 { 
+    float: left; 
+    width: 25%;
+}
+
+.float33 { 
+    float: left; 
+    width: 33.3333%;
+}
+
+.float50 { 
+    float: left; 
+    width: 50%;
+}
+
+.float66 { float: left; 
+    width: 66.6667%;
+}
+
+.float75 { 
+    float: left; 
+    width: 75%;
+}
+
+.float80 { 
+    float: left; 
+    width: 80%;
+}
+
+header {
+    
+}
+
+/* hero sections */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("sleeptalkers-hero.jpg");
+    background-position: top;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    margin: 0 auto;
+}
