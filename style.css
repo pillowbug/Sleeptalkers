@@ -36,6 +36,19 @@ body{line-height:1;-webkit-text-size-adjust:none;}
     color: white;
 }
 
+
+h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6em;
+
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+    line-height: 1.6em;
+}
+
 /* floats */
 
 .float20 { 
@@ -71,13 +84,7 @@ body{line-height:1;-webkit-text-size-adjust:none;}
     float: left; 
     width: 80%;
 }
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-
-}
-
+    
 /* hero sections */
 
 #home {
@@ -106,6 +113,7 @@ h2 {
     margin: 0 auto;
     padding: 32px;  
     border: 8px solid #fff;
+    width: 80%;
 }
 
 .inner {
@@ -114,13 +122,10 @@ h2 {
     width: 100%;
 }
 
-.content {
-    min-height: 100vh;
-    height: 100%;
-    width: 66%;
-    position: relative;
-    padding-top: 40px;
-    margin-left: 64px;
+.logo {
+    width: 100%;
+    padding: 32px;
+
 }
 
 .band-bio {
@@ -143,7 +148,22 @@ h2 {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(5, 20%);
-    min-height: 400px;
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(8, 150px);
+}
+
+.grid-img-1 {
+    grid-column: 1 / 3;
+    width: 420px;
+}
+
+.grid-img-2 {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    width: 600px;
+}
+
+.bio {
+    grid-column: 4/10;
+    grid-row: 1/2;
 }
