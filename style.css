@@ -209,7 +209,7 @@ nav a:hover {
 .video {
     background-color: #29304a;
     width: 100%;
-    min-height: 420px;
+    min-height: 320px;
     padding: 32px;
 }
 
@@ -345,6 +345,11 @@ i {
 
     .fab {
         font-size: 3em !important;
+    }
+
+    .video > iframe {
+        width: 426px;
+        height: 240px;
     }
 
   }
