@@ -21,7 +21,7 @@ body{line-height:1;-webkit-text-size-adjust:none;}
 
 /* reusable classes */
 
-.inner { max-width: 1000px; margin: 0 auto; }
+.inner { max-width: 80%; margin: 0 auto; }
 .cf:before, .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }  
 .text-left {text-align: left;}
@@ -39,7 +39,7 @@ body{line-height:1;-webkit-text-size-adjust:none;}
 
 h2 {
     font-family: 'Sora', sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5em;
     line-height: 1.6em;
 
 }
@@ -90,7 +90,7 @@ p {
 #home {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("sleeptalkers-hero.jpg") no-repeat center top fixed;
+    background: linear-gradient(to top, rgba(41, 48, 74, 1), rgba(0, 0, 0, 0.2)), url("sleeptalkers-hero.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,7 +105,6 @@ p {
     height: 100vh;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -116,10 +115,8 @@ p {
     width: 80%;
 }
 
-.inner {
-    background-color: #fff;
-    height: 500px;
-    width: 100%;
+.hero-content h2 {
+    font-size: 1.5em;
 }
 
 .logo {
@@ -131,7 +128,7 @@ p {
 .band-bio {
     height: 100vh;
     width: 100vw; 
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(41, 48, 74, 0.1);
     padding: 32px;
 }
 
@@ -140,7 +137,6 @@ p {
     padding: 32px;
     min-height: 80%; 
     width: 80%;
-    background-color: #fff;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
     top: -5%;
     left: 10%;
@@ -148,8 +144,8 @@ p {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(8, 150px);
-    grid-template-rows: repeat(8, 150px);
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(8, 100px);
 }
 
 .grid-img-1 {
@@ -158,12 +154,51 @@ p {
 }
 
 .grid-img-2 {
-    grid-column: 3 / 5;
-    grid-row: 3 / 4;
-    width: 600px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    width: 800px;
 }
 
 .bio {
-    grid-column: 4/10;
-    grid-row: 1/2;
+    grid-column: 6/14;
+    grid-row: 4/6;
+}
+
+.music {
+    margin: 0 auto; 
+    width: 100%;
+    padding: 32px;
+}
+
+.music h2 {
+    padding-bottom: 32px; 
+}
+
+.tracks-container > .float33 > iframe { 
+    margin: 0 auto; 
+    display: block;
+}
+
+.video {
+    background-color: #29304a;
+    width: 100%;
+    min-height: 500px;
+    padding: 32px;
+}
+
+.video > iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.social-stuff {
+    padding: 32px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    display: inline-block;
+    color: #EDF2F4;
 }
