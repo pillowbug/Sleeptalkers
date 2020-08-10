@@ -6,19 +6,23 @@
     <title>Sleeptalkers | Hallelujah</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <script src="https://kit.fontawesome.com/d0540d6bc9.js" crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <!-- <header>
-        <div class="header-logo"></div>
+    <div class="header flex">
+        <div class="header-logo">
+            <img height="24" src="sleeptalkers-logo-dark.png" alt="Sleeptalkers">
+        </div>
         <nav>
             <a href="#band-bio">BIO</a>
-            <a href="#music">MUSIC</a>
+            <a href="#tunes">MUSIC</a>
             <a href="#social">SOCIAL</a>
             
         </nav>
-    </header> -->
+    </div>
     <section id="home">
        
         <div class="home-content flex">
@@ -27,7 +31,7 @@
                 <h2>Hallelujah EP | 2020</h2>
             </div>
         </div>
-        <div class="band-bio relative">
+        <div id="bio" class="band-bio relative">
             <div class="bio-content cf text-white">
                 <div class="image-grid">
                     <!-- <img class="grid-img-1" src="promo_vert.jpg" alt=""> -->
@@ -42,24 +46,44 @@
             </div>
             
         </div>
-        <div class="music inner text-white">
-            <h2 class="text-center">Tunes</h2>
-            <div class="tracks-container cf"><div class="float33"><iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/track=2141959138/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://sleeptalkersca.bandcamp.com/track/hallelujah">Hallelujah by Sleeptalkers</a></iframe></div>
-            <div class="float33"><iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/track=2468394800/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://sleeptalkersca.bandcamp.com/track/catherine">Catherine by Sleeptalkers</a></iframe></div>
-            <div class="float33"><iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/track=1157761951/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://sleeptalkersca.bandcamp.com/track/i-wanna-know">I Wanna Know by Sleeptalkers</a></iframe></div></div>
+        <div id="tunes" class="music inner text-white">
+            <h2>Tunes</h2>
+            <div class="tracks-container cf">
+                <div class="float33">
+                    <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/track=2141959138/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://sleeptalkersca.bandcamp.com/track/hallelujah">Hallelujah by Sleeptalkers</a>
+                    </iframe>
+                </div>
+                <div class="float33">
+                    <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/track=2468394800/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://sleeptalkersca.bandcamp.com/track/catherine">Catherine by Sleeptalkers</a>
+                    </iframe>
+                </div>
+                <div class="float33">
+                    <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/track=1157761951/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://sleeptalkersca.bandcamp.com/track/i-wanna-know">I Wanna Know by Sleeptalkers</a>
+                    </iframe>
+                </div>
+            </div>
         </div>
         <div class="video text-white">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/eYDImt1t5wU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/eYDImt1t5wU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="social-stuff text-white text-center">
+        <div id="social" class="social-stuff text-white inner">
             <h2>Social</h2>
             <div class="social-links inner flex">
-                <i class="fab fa-spotify fa-7x"></i>
-                <i class="fab fa-facebook fa-7x"></i>
-                <i class="fab fa-twitter fa-7x"></i>
-                <i class="fab fa-instagram fa-7x"></i>
+                <a href="https://open.spotify.com/artist/2yLUUBC4mFJrW1t2yDLhJD?si=fj7mHE5mTNmJIxtQ0wxmpQ" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.facebook.com/sleeptalkersca"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/sleeptalkersca" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/sleeptalkersca/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- <h2>Booking / General Inquiries</h2> -->
+        </div>
+        <div class="footer">
+            <div class="footer-content flex inner">
+                <p>Sleeptalkers is powered by ramen, pop-punk, and anime</p>
             </div>
         </div>
     </section>
 </body>
+<script>
+    
+</script>
 </html>
